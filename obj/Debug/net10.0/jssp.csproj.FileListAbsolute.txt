@@ -1,0 +1,14 @@
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\bin\Debug\net10.0\jssp.exe
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\bin\Debug\net10.0\jssp.deps.json
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\bin\Debug\net10.0\jssp.runtimeconfig.json
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\bin\Debug\net10.0\jssp.dll
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\bin\Debug\net10.0\jssp.pdb
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\obj\Debug\net10.0\jssp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\obj\Debug\net10.0\jssp.AssemblyInfoInputs.cache
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\obj\Debug\net10.0\jssp.AssemblyInfo.cs
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\obj\Debug\net10.0\jssp.csproj.CoreCompileInputs.cache
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\obj\Debug\net10.0\jssp.dll
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\obj\Debug\net10.0\refint\jssp.dll
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\obj\Debug\net10.0\jssp.pdb
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\obj\Debug\net10.0\jssp.genruntimeconfig.cache
+C:\Users\kajak\OneDrive\Desktop\proj\uni\jssp\obj\Debug\net10.0\ref\jssp.dll

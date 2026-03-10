@@ -1,0 +1,153 @@
+JobId,OperationId,Subdivision,ProcessingTime
+1,1,Machining,2
+1,2,Fabrication,3
+1,3,Quality Control,1
+1,4,Assembly,2
+1,5,Testing,1
+1,6,Packaging,1
+2,1,Machining,1
+2,2,Fabrication,2
+2,3,Surface Treatment,1
+2,4,Assembly,4
+2,5,Quality Control,1
+2,6,Branding,2
+3,1,Machining,3
+3,2,Fabrication,1
+3,3,Surface Treatment,1
+3,4,Quality Control,1
+3,5,Assembly,3
+3,6,Testing,1
+3,7,Packaging,2
+4,1,Machining,2
+4,2,Assembly,3
+4,3,Surface Treatment,1
+4,4,Quality Control,2
+4,5,Painting,3
+4,6,Branding,1
+5,1,Machining,2
+5,2,Fabrication,2
+5,3,Assembly,3
+5,4,Quality Control,1
+5,5,Packaging,1
+6,1,Fabrication,3
+6,2,Surface Treatment,2
+6,3,Assembly,2
+6,4,Quality Control,1
+6,5,Testing,2
+7,1,Machining,2
+7,2,Assembly,3
+7,3,Painting,2
+7,4,Quality Control,1
+7,5,Packaging,2
+8,1,Machining,3
+8,2,Fabrication,1
+8,3,Surface Treatment,1
+8,4,Assembly,3
+8,5,Branding,2
+8,6,Quality Control,2
+9,1,Machining,1
+9,2,Surface Treatment,2
+9,3,Assembly,4
+9,4,Quality Control,1
+9,5,Testing,1
+10,1,Fabrication,2
+10,2,Assembly,3
+10,3,Quality Control,1
+10,4,Painting,2
+10,5,Branding,1
+11,1,Machining,2
+11,2,Fabrication,2
+11,3,Assembly,3
+11,4,Quality Control,1
+11,5,Packaging,2
+12,1,Machining,3
+12,2,Fabrication,1
+12,3,Surface Treatment,2
+12,4,Assembly,4
+12,5,Quality Control,1
+12,6,Branding,2
+13,1,Machining,1
+13,2,Fabrication,2
+13,3,Surface Treatment,1
+13,4,Assembly,3
+13,5,Quality Control,1
+14,1,Machining,2
+14,2,Assembly,3
+14,3,Quality Control,1
+14,4,Packaging,2
+15,1,Fabrication,2
+15,2,Surface Treatment,1
+15,3,Assembly,4
+15,4,Quality Control,1
+15,5,Painting,3
+16,1,Machining,1
+16,2,Assembly,2
+16,3,Quality Control,1
+16,4,Branding,2
+17,1,Fabrication,3
+17,2,Surface Treatment,2
+17,3,Assembly,3
+17,4,Quality Control,1
+17,5,Packaging,1
+18,1,Machining,2
+18,2,Assembly,4
+18,3,Quality Control,1
+18,4,Painting,3
+19,1,Fabrication,1
+19,2,Surface Treatment,2
+19,3,Assembly,2
+19,4,Quality Control,1
+19,5,Branding,2
+20,1,Machining,3
+20,2,Fabrication,2
+20,3,Surface Treatment,1
+20,4,Assembly,3
+20,5,Quality Control,1
+21,1,Machining,2
+21,2,Fabrication,1
+21,3,Assembly,3
+21,4,Quality Control,2
+21,5,Testing,1
+21,6,Packaging,1
+22,1,Fabrication,3
+22,2,Surface Treatment,2
+22,3,Assembly,4
+22,4,Quality Control,1
+22,5,Branding,2
+23,1,Machining,1
+23,2,Fabrication,2
+23,3,Assembly,3
+23,4,Quality Control,1
+23,5,Packaging,2
+24,1,Machining,3
+24,2,Fabrication,1
+24,3,Surface Treatment,1
+24,4,Assembly,4
+24,5,Quality Control,1
+24,6,Painting,2
+25,1,Machining,2
+25,2,Assembly,3
+25,3,Quality Control,1
+25,4,Branding,2
+26,1,Fabrication,1
+26,2,Surface Treatment,2
+26,3,Assembly,4
+26,4,Quality Control,1
+26,5,Testing,1
+27,1,Machining,1
+27,2,Fabrication,2
+27,3,Surface Treatment,1
+27,4,Assembly,3
+27,5,Quality Control,1
+28,1,Machining,2
+28,2,Assembly,3
+28,3,Quality Control,2
+28,4,Packaging,1
+29,1,Fabrication,3
+29,2,Surface Treatment,1
+29,3,Assembly,4
+29,4,Quality Control,1
+30,1,Machining,2
+30,2,Assembly,3
+30,3,Quality Control,1
+30,4,Branding,2
