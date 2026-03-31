@@ -13,14 +13,6 @@ public class DisjunctiveGraph // (G)raph, (V)erticies & (E)dges G(V,E) - Disjunc
     // Orientation of disjunctive edges
 }
 
-public class Operation // Verticies, represent operations or tasks
-{
-    char jobId;
-    char operationId;
-    string subdivision;
-    int processingTime;
-}
-
 public class Edge
 {
     
