@@ -12,4 +12,13 @@ public class Operation // Verticies, represent operations or tasks
         Subdivision = subdivision;
         ProcessingTime = processingTime;
     }
+
+    public override string ToString()
+    {
+        return @$"JobId: {JobId}, 
+            OperationId: {OperationId}, 
+            Subdivision: {Subdivision}, 
+            ProcessingTime: {ProcessingTime}
+            -------------------------------";
+    }
 }

@@ -5,6 +5,7 @@ using System.Text;
 using Microsoft.VisualBasic.FileIO;
 using Microsoft.VisualBasic;
 using System.Runtime.CompilerServices;
+using Terminal.Gui;
 
 namespace JSSP
 {
@@ -71,41 +72,49 @@ namespace JSSP
 
         static void Main(string[] args)
         {
+
+            Application.Run<ChooseFileWindow> ();
+
+            // Before the application exits, reset Terminal.Gui for clean shutdown
+            Application.Shutdown ();
+
+            //System.Console.WriteLine ($@"Username: {ChooseFileWindow.Username}");
+
             // Get all implementations of an interface (then store their names)
             // Using a dynamic library
-            string[] algorithms = [ "Tabu Search", 
-                                    "Genetic Algorithm", 
-                                    "Hybrid (Memetic, Tabu + Genetic)", 
-                                    "Branch & Bound"];
-            bool run = true;
+            // string[] algorithms = [ "Tabu Search", 
+            //                         "Genetic Algorithm", 
+            //                         "Hybrid (Memetic, Tabu + Genetic)", 
+            //                         "Branch & Bound"];
+            // bool run = true;
             
-            {
-                // Input CSV dataset
-                Console.Write("Input the name of the CSV dataset: ");
-                string? csvFile = Console.ReadLine(); // Input validation
+            // {
+            //     // Input CSV dataset
+            //     Console.Write("Input the name of the CSV dataset: ");
+            //     string? csvFile = Console.ReadLine(); // Input validation
 
-                // Handle file
-                Dictionary<int, List<Operation>> jobs = FileHandler(csvFile);
+            //     // Handle file
+            //     Dictionary<int, List<Operation>> jobs = FileHandler(csvFile);
                 
-                foreach (var job in jobs)
-                {
-                    Console.WriteLine(job.Key);
-                    Console.WriteLine(job.Value);
-                }
+            //     foreach (var job in jobs)
+            //     {
+            //         Console.WriteLine("Key: " + job.Key);
+            //         Console.WriteLine("Value: " + string.Join(", ", job.Value));
+            //     }
 
-                // List available algorithms (order by recommended)
-                for (int i = 0; algorithms.Length > i; i++)
-                {
-                    Console.WriteLine("[" + (i + 1) + "]" + " " + algorithms[i]);
-                }
+            //     // List available algorithms (order by recommended)
+            //     for (int i = 0; algorithms.Length > i; i++)
+            //     {
+            //         Console.WriteLine("[" + (i + 1) + "]" + " " + algorithms[i]);
+            //     }
 
-                Console.Write("Select an algorithm: ");
-                int algorithmChosen = Convert.ToInt32(Console.ReadLine());
+            //     Console.Write("Select an algorithm: ");
+            //     int algorithmChosen = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine(algorithms[algorithmChosen]);
-            } while (run == true);
+            //     Console.WriteLine(algorithms[algorithmChosen]);
+            // } while (run == true);
 
-            Console.WriteLine("Hello World!");
+            // Console.WriteLine("Hello World!");
         }
     }
 }
