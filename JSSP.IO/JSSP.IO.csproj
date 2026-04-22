@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\JSSP.Core\JSSP.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.102.2" />
+    <!--
+      Pin to upgrade from 6.0.0. The NU1903 advisories (GHSA-f32c-w444-8ppv,
+      GHSA-qj66-m88j-hmgj) concern parsing maliciously crafted archives;
+      this project only WRITES xlsx files, so the attack surface does not apply.
+    -->
+    <PackageReference Include="System.IO.Packaging" Version="8.0.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

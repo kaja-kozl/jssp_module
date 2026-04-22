@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-JSSP",
+      "appliesTo": "JSSP.UI/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-JSSP",
+      "appliesTo": "JSSP.UI/",
+      "type": "launch"
+    }
+  ]
+}
